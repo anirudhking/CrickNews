@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/news_thumbnail"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher"
+            android:padding="8dp"
+            />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/title_text_view"
+                android:text="Gunaratne in doubt for rest of India Tests"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/subtitle_text_view"
+                android:text="By Andrew Fidel Fernando in Galle"
+                android:paddingLeft="8dp"
+                android:textSize="12sp"
+                android:textColor="#B0BEC5"
+                />
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/description_text_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="The Sri Lanka allrounder has fractured his left thumb and has been taken to Colombo to see a specialist"
+        android:padding="8dp"
+        android:textSize="14sp"
+        />
+
+</LinearLayout>

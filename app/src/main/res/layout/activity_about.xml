@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.softwares.gyroscoped.cricknews.AboutActivity"
+    >
+
+    <ImageView
+        android:id="@+id/dummy_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/dummy_logo"
+        android:layout_centerInParent="true"
+        android:layout_margin="64dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About US"
+        android:textStyle="bold"
+        android:layout_alignTop="@id/dummy_logo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/dummy_logo"
+        android:text="Gyroscoped Studios"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/company_name"
+        android:text="email id : gyroscopedstudios@gmail.com"
+        />
+
+</RelativeLayout>
